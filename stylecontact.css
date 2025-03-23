@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("assets/photo1.jpg") no-repeat center center/cover;
+    line-height: 1.5em;
+    color: #0B235A;
+    /* backdrop-filter: blur(3px); */
+}
+
+/* Navbar */
+#nav-container {
+    background-color: #0B235A;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#nav-container h1 {
+    font-size: 28px;
+}
+#nav-container a{
+    text-decoration: none;
+    color: #fff;
+}
+#nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+#nav-container ul li a {
+    padding: 10px 15px; /* Add padding around links */
+}
+#nav-container ul li a:hover,
+#nav-container ul li a.current{
+    color: #f7c08a;
+    background-color: #0B235A;
+}
+
+/* Contact Us Section */
+#contact-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-container h2 {
+    text-align: left;
+    color: #0B235A;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #0B235A;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #0B235A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #09306d;
+}
+
+/* Hotel Info Section */
+.hotel-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 200px;
+}
+
+.info-item .icon {
+    font-size: 24px;
+    color: #0B235A;
+}
+
+.info-item p {
+    margin: 0;
+    color: #0B235A;
+    font-size: 16px;
+}
+
+/* Footer */
+#footer {
+    background-color: #0B235A;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}

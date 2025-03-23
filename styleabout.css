@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: url("assets/photo1.jpg");
+    line-height: 1.5em;
+    background-color: #f4f4f4;
+    color: #0B235A;
+    backdrop-filter: blur(5px);
+}
+
+/* .text-primary{
+    color: black;
+} */
+/* Navbar */
+#nav-container {
+    background-color: #0B235A;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    background-color:#0B235A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px ;
+}
+#nav-container a{
+    text-decoration: none;
+    color: #fff;
+}
+#nav-container ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#nav-container ul li a{
+    display: block;
+    padding: 20px;
+}
+
+#nav-container ul li a:hover,
+#nav-container ul li a.current{
+    color: #f7c08a;
+    background-color: #0B235A;
+}
+/* About Section */
+
+#about-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#about-container .about-content {
+ 
+    flex: 1;
+    padding-right: 20px;
+}
+
+#about-container .about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about-container .about-content p {
+    line-height: 1.7em;
+}
+
+#about-container .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-container .image-container img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f7c08a;
+}
+
+/* Guest Reviews */
+.guest-review {
+    background: url('./assets/2.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.guest-review h1 {
+    font-size: 28px;
+    padding: 12px;
+    color: white ;
+}
+
+.guest-review .review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    padding: 12px;
+}
+
+.guest-review .review img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #0B235A;
+}
+
+.guest-review .review p {
+    background-color: #ccc;
+    color: #0B235A;
+    padding: 10px 20px;
+    border-radius: 5px ;
+    font-size: 16px;
+    flex: 1;
+    text-align: left;
+   
+
+}
+
+/* Footer */
+#footer {
+    background-color: #0B235A;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
